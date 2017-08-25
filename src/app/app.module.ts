@@ -4,10 +4,12 @@ import { NgModule } from '@angular/core';
 import { AppComponent } from './app.component';
 import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
 import {MdInputModule} from '@angular/material';
+import { CharCheckPipePipe } from './char-check-pipe.pipe';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    CharCheckPipePipe
   ],
   imports: [
     BrowserModule,

@@ -1,3 +1,19 @@
 /* You can add global styles to this file, and also import other style files */
 @import '~@angular/material/prebuilt-themes/deeppurple-amber.css';
+.i-input{
+  font-family:sans-serif;
+}
+.is-i{
+  color: #673AB7;
+}
+
+.is-l{
+  color: #FF6F00;
+}
+
+.center-panel{
+  text-align: center;
+  margin: 100px auto;
+  font-size: 72px;
+}
 
