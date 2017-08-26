@@ -1,11 +1,2 @@
 <!--The content below is only a placeholder and can be replaced.-->
-<div class="main">
-  <div class="center-panel">
-    <div class="i-input">
-      <md-input-container class="">
-        <input mdInput  #text placeholder="Is there an I in this text" value="Check for I's">
-      </md-input-container>
-    </div>
-    <div [innerHtml]="text.value | charCheckPipe"></div>
-  </div>
-</div>
+<router-outlet></router-outlet>
