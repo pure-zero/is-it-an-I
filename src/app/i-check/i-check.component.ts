@@ -9,7 +9,7 @@ import 'rxjs/add/operator/switchMap';
 })
 export class ICheckComponent implements OnInit {
 
-  private initialText: string;
+  public initialText: string;
   private sub: any;
   constructor(
     private route: ActivatedRoute,
