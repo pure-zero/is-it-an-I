@@ -16,7 +16,7 @@ export class ICheckComponent implements OnInit {
   ) {}
   ngOnInit() {
     this.sub = this.route.params.subscribe(params => {
-      this.initialText = params['text'];
+      this.initialText = params['text'].replace(/"/g, '');
     });
   }
 }

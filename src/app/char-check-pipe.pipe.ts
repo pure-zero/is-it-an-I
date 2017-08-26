@@ -10,7 +10,7 @@ export class CharCheckPipePipe implements PipeTransform {
     for (let char of value){
       if(char === 'i' || char === 'I'){
         formattedText += "<span class=\"is-i\">" + char + "</span>";
-      } else if (char === 'l' || char === 'L'){
+      } else if (char === 'l' || char === 'L') {
         formattedText += "<span class=\"is-l\">" + char + "</span>";
       } else {
         formattedText += char;
